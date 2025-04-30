@@ -1,0 +1,15 @@
+
+.painel1 img{
+    width: 45%;
+    height: 10%;
+    float: left;
+}
+.painel2 img{
+    width: 45%;
+    height: 10%;
+    float: right;
+}
+
+header{
+    text-align: center;
+}

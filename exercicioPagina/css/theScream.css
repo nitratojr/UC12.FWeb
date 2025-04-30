@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#direita{
+    float: right;
+    width: 49%;
+    height: 85%;
+
+
+}
+#esquerda{
+    background-color: tomato;
+    float: left;
+    width: 49%;
+    height: 85%;
+    font-weight: bold;
+}
+div h1{
+    text-align: center;
+    font-family: 'Caveat',cursive;
+    color: yellow;
+
+}
+#Rodape{
+    text-align: center;
+    font-family: 'Caveat',cursive;
+    clear: both;
+    height: 15%;
+    width: 100%;
+
+}
+#direita img{
+    width: 50%;
+    height: 25%;
+}
+
+div p{
+    font-family: cursive;
+}
+table tr th,td{
+    border-bottom: 1px solid black;
+
+}
+table th{
+    border-bottom: 1px;
+}

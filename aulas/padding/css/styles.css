@@ -1,0 +1,21 @@
+*{
+  padding: 20px;
+  margin: 0%;
+}
+body{
+    width: 100vh;
+    height: 100vh;
+}
+div{
+    width: 80vh;
+    height: 30vh;
+}
+#paragrafo{
+    width: 15vh;
+    height: 5vh;
+    color: black;
+    border: 20px;
+    border-color: black;
+    border-style: outset;
+    border-radius: 50vh;
+}

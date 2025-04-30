@@ -1,0 +1,41 @@
+
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+
+    background-color: wheat;
+
+}
+ul{
+    display: flex;
+    
+}
+
+.container{
+    background-color: brown;
+    width: 100%;
+    border:1px solid red;
+    
+
+
+}
+li{
+    list-style: none;
+    margin: 0 1% 0 0;
+}
+.menu-opcoes ul li:hover{
+    display: inline;
+    margin-left: 20px;
+
+}
+.menu-opcoes ul li:active{
+    display:inline;
+    margin-left:20px ;
+}
+

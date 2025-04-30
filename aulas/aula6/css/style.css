@@ -1,0 +1,16 @@
+
+
+#dpanel{
+    background-color: green;
+    position: absolute;
+    right: 100px;
+    bottom: 17px;
+    left: 100px;
+    top: 50px;
+ 
+}
+#dpanel img{
+    right: 50px;
+    left: 55px;
+    
+}

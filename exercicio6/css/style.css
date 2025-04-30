@@ -1,0 +1,47 @@
+html{
+    background-color: gray;
+}
+
+body{
+    margin: 0%;
+}
+
+#Vermelho{
+    background-color: red;
+    color: white;
+    display: flex;         
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    font-size: 9vh;
+    height: 33.3lvh;
+    margin: 0px;
+}
+
+#Preto{
+    background-color: black;
+    color: white;
+    display: flex;         
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    font-size: 9vh;
+    height: 33.3lvh;
+    margin: 0px;
+}
+
+#Branco{
+    background-color: white;
+    color: black;
+    display: flex;         
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    font-size: 9vh;
+    height: 33.3lvh;
+    margin: 0px;
+
+}
+
+
+
