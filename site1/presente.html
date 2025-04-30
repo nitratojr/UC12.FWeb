@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dia da Mulher</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #ff69b4, #da70d6);
+            font-family: 'Arial', sans-serif;
+        }
+
+        .cartao {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 500px;
+            animation: flutuar 3s ease-in-out infinite;
+        }
+
+        h1 {
+            color: #ff1493;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+            font-size: 1.2em;
+        }
+
+        .flores {
+            font-size: 40px;
+            margin: 20px 0;
+        }
+
+        .coracao {
+            color: #ff1493;
+            font-size: 30px;
+            animation: pulsar 1s ease-in-out infinite;
+        }
+
+        @keyframes pulsar {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes flutuar {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+
+        .botao {
+            background: #ff1493;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 25px;
+            font-size: 1.1em;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: transform 0.3s;
+        }
+
+        .botao:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="cartao">
+        <div class="flores">🌸 🌹 🌺</div>
+        <h1>Feliz Dia da Mulher!</h1>
+        <p>
+            Para todas as mulheres incríveis que fazem do mundo um lugar melhor.
+            Vocês são força, são garra, são inspiração!
+        </p>
+        <p>
+            Que neste dia e em todos os outros, sejam celebradas e reconhecidas
+            por sua coragem, determinação e beleza única.
+        </p>
+        <div class="coracao">❤️</div>
+        <p>8 de Março</p>
+        <button class="botao" onclick="mostrarMensagem()">Clique aqui!</button>
+    </div>
+
+    <script>
+        function mostrarMensagem() {
+            alert("Parabéns a todas as mulheres! Vocês são verdadeiramente especiais e essenciais em nossas vidas! 🌹");
+        }
+    </script>
+</body>
+</html>
