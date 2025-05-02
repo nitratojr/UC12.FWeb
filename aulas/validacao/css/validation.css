@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.polygon-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 120%;
+    background: linear-gradient(135deg, #4A90E2 30%, #50E3C2 70%);
+    clip-path: polygon(50% 0%, 100% 40%, 100% 100%, 0 100%, 0 40%);
+    transform: rotate(-15deg) translate(-10%, -10%);
+    z-index: -1;
+}
+.form-container {
+    position: relative;
+    z-index: 1;
+    max-width: 400px;
+    margin: 120px auto 0 auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
