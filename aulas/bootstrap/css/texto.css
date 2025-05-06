@@ -1,0 +1,112 @@
+/* Estilos para a seção de texto e história */
+.historia {
+    background-color: #1a1a1a;
+    padding: 4rem 0;
+    margin: 0;
+    width: 100%;
+}
+
+.historia h2 {
+    color: #d4a574;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.historia .container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.historia .row {
+    margin: 0;
+    padding: 0 1rem;
+}
+
+.historia-card {
+    background-color: #2d2d2d;
+    padding: 2.5rem;
+    margin: 1rem;
+    border-radius: 12px;
+    height: 100%;
+    border: 1px solid #3d3d3d;
+    transition: transform 0.3s ease;
+}
+
+.historia-card:hover {
+    background-color: #333333;
+    transform: translateY(-5px);
+}
+
+.historia-card h3 {
+    color: #d4a574;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.historia-card p {
+    color: #ffffff;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* Botão simplificado */
+.historia .btn-primary {
+    background-color: #d4a574;
+    border: none;
+    padding: 1rem 2rem;
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+.historia .btn-primary:hover {
+    background-color: #c09366;
+}
+
+/* Responsividade */
+@media (max-width: 992px) {
+    .historia {
+        padding: 3rem 0;
+    }
+
+    .historia h2 {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .historia .row {
+        padding: 0 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .historia {
+        padding: 2rem 0;
+    }
+
+    .historia-card {
+        padding: 1.5rem;
+        margin: 0.5rem;
+    }
+
+    .historia h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .historia {
+        padding: 1.5rem 0;
+    }
+
+    .historia h2 {
+        font-size: 1.8rem;
+    }
+
+    .historia-card {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+} 

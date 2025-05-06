@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/texto.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+</head>
+<body>
+  <header class="p-3 text-bg-dark">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+            </a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+                <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+                <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+                <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+                <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
+                    aria-label="Search">
+            </form>
+
+            <div class="text-end">
+                <button type="button" class="btn btn-outline-light me-2">Login</button>
+                <button type="button" class="btn btn-warning">Sign-up</button>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./img/cafe1.png" class="d-block w-100 carousel-image" alt="Café Especial">
+            <div class="container">
+                <div class="carousel-caption text-start">
+                    <h1>Descubra o Melhor do Café</h1>
+                    <p class="opacity-75">Saboreie nossos grãos selecionados, torrados com perfeição para seu prazer.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Conheça Nossos Cafés</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/cafe2.png" class="d-block w-100 carousel-image" alt="Café Gourmet">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Momentos Especiais</h1>
+                    <p>Cada xícara conta uma história. Venha escrever a sua com nosso café.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Ver Cardápio</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/cafe3.png" class="d-block w-100 carousel-image" alt="Experiência do Café">
+            <div class="container">
+                <div class="carousel-caption text-end">
+                    <h1>Arte em Cada Xícara</h1>
+                    <p>Do grão à xícara, criamos experiências únicas para você.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Faça seu Pedido</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<!-- Seção História - Inserir antes do footer -->
+<div class="historia container py-5">
+    <h2 class="text-center mb-5">A História do Café</h2>
+    
+    <div class="row mb-5">
+        <div class="col-md-6">
+            <div class="historia-card">
+                <h3>🌍 Origem</h3>
+                <p>Na Etiópia, um pastor chamado Kaldi descobriu o café quando percebeu que suas cabras ficavam mais energéticas ao comer certos frutos vermelhos. Esta descoberta mudaria para sempre a história das bebidas no mundo.</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="historia-card">
+                <h3>🕌 Mundo Islâmico</h3>
+                <p>No século XV, o café começou a ser cultivado no Iêmen. Foi no mundo árabe que surgiram os primeiros métodos de torra e preparação da bebida que conhecemos hoje.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-5">
+        <div class="col-md-4">
+            <div class="historia-card">
+                <h3>☕ Europa</h3>
+                <p>No século XVII, o café chegou à Europa, onde as primeiras cafeterias se tornaram centros de discussão intelectual e política.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="historia-card">
+                <h3>🌱 Brasil</h3>
+                <p>Desde 1727, o Brasil se tornou um dos maiores produtores mundiais de café, mantendo esta posição por mais de 150 anos.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="historia-card">
+                <h3>🎨 Curiosidades</h3>
+                <p>A palavra "café" tem origem árabe (qahwa) e grandes artistas como Van Gogh e escritores como Balzac eram apaixonados pela bebida.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <a href="#" class="btn btn-lg btn-primary">Saiba Mais Sobre Nossa História</a>
+    </div>
+</div>
+
+<div class="footer">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">&copy; 2025 Company, Inc</p>
+    </footer>
+  </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
