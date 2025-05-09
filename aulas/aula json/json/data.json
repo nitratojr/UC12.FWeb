@@ -1,0 +1,25 @@
+{
+    "pessoas": [
+        {
+            "nome":"cleber",
+            "idade": 18,
+            "local": {
+                "cidade":"São Leopoldo",
+                "UF":"Rio Grande do Sul",
+                "País":"Brasil"
+            }
+        },
+        {
+            "nome":"Pedro",
+            "idade": 20,
+            "local": {
+                "cidade":"São Leopoldo",
+                "UF":"Rio Grande do Sul",
+                "País":"Brasil"
+            }
+        },
+        {},
+        {}
+    ]
+    
+}

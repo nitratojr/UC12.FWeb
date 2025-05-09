@@ -1,0 +1,102 @@
+main{
+    justify-content: center;
+    display: flex;
+   background-image: url('../img/pokemon.png');
+ 
+
+}
+
+
+figpokedex{
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    height: 600px;
+   
+   
+}
+
+#container{
+    position: relative;
+   
+   
+}
+
+#imagempokemon{
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    
+    
+
+}
+
+#form{
+    position: absolute;
+    top: 63%;
+    left: 15%;
+    
+    
+}
+
+#idnome{
+    position: absolute;
+    bottom: 41%;
+    left: 24%;
+    background-color:#ffffff;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: -2px 2px grey;
+    width: 50%;
+}
+
+#informacoes1{
+    position: absolute;
+    bottom:3%;
+    left: 17%;
+    background-color:wheat;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: -2px 2px grey;
+    width: 275px;
+    height: 79px;
+}
+#botoes {
+    position: absolute;
+    top:100%;
+    left: 20%;
+    
+}
+
+#btnproximo{
+    box-shadow: -2px 2px black;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    width: 125px;
+    height: 30px;
+    
+}
+
+#btnvoltar{
+    box-shadow: -2px 2px black;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    width: 125px;
+    height: 30px;
+    
+}
+
+
+
+#input{
+    border-radius: 2px;
+    box-shadow: -2px 2px grey;
+    width: 310px;
+    height: 30px;
+    
+}
+
+
+  
