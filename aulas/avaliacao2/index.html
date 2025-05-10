@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Define o idioma da página como inglês -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres (suporta acentuação) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade em dispositivos móveis -->
+    <title>pokedex</title> <!-- Título que aparece na aba do navegador -->
+    <link rel="stylesheet" href="./css/style.css"> <!-- Importa o arquivo de estilo CSS -->
+</head>
+
+<body>
+    <main> <!-- Elemento principal do conteúdo da página -->
+        <div id="container"> <!-- Container principal que agrupa todos os elementos -->
+
+            <!-- Imagem da pokédex -->
+            <figure id="figpokedex">
+                <img src="./img/pokedex.png" alt="imagem de uma pokedex">
+            </figure>
+
+            <!-- Imagem dinâmica do Pokémon (será trocada via JavaScript) -->
+            <figure id="imagempokemon">
+                <img id="fotopoke" src="" alt="imagem de pokemon">
+            </figure>
+
+            <!-- Formulário de entrada para pesquisar um Pokémon -->
+            <form action="" id="form">
+                <input id="input" type="text"> <!-- Campo de texto para digitar o nome ou ID -->
+            </form>
+
+            <!-- Área que exibe o ID e o nome do Pokémon -->
+            <div id="idnome">
+                <span id="idpokemon">id</span> <!-- Exibe o ID do Pokémon -->
+                <span id="nomepokemon">pokemon</span> <!-- Exibe o nome do Pokémon -->
+            </div>
+            
+            <!-- Área com informações adicionais do Pokémon -->
+            <div id="informacoes1">
+                <span id="tipo1">tipo1</span> <!-- Tipo principal -->
+                <span id="tipo2">tipo2</span> <!-- Segundo tipo (se existir) -->
+                
+                <div id="habilidades">habilidades</div> <!-- Habilidades do Pokémon -->
+                <div id="peso">peso</div> <!-- Peso do Pokémon -->
+                <div id="altura">altura</div> <!-- Altura do Pokémon -->
+            </div>
+
+            <!-- Botões de navegação entre os Pokémons -->
+            <div id="botoes">
+                <button id="btnvoltar">voltar</button> <!-- Botão para ir ao Pokémon anterior -->
+                <button id="btnproximo">proximo</button> <!-- Botão para ir ao próximo Pokémon -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Importa o script JavaScript que manipula os dados da Pokédex -->
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

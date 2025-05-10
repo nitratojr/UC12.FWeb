@@ -1,0 +1,116 @@
+html, body {
+  height: 100%;               /* Garante que o body ocupe toda a tela */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../img/pokemon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;     /* Cobre a tela inteira */
+  background-position: center center; /* Centraliza a imagem no meio da tela */
+}
+
+
+main {
+    justify-content: center;  /* Centraliza o conteúdo horizontalmente */
+    display: flex;            /* Usa flexbox para posicionamento flexível */
+}
+
+
+#figpokedex {
+    justify-content: center;  /* Centraliza a imagem dentro da <figure> */
+    display: flex;
+    width: 400px;
+    height: 600px;            /* Tamanho fixo da imagem da Pokédex */
+}
+
+#container {
+    position: relative;  /* Torna possível posicionar filhos com absolute relativos a este container */
+}
+
+#imagempokemon {
+    position: absolute;
+    top: 28%;
+    left: 25%;  /* Posiciona a imagem em relação ao container */
+}
+
+#form {
+    position: absolute;
+    top: 63%;
+    left: 15%;
+}
+
+#idnome {
+    position: absolute;
+    bottom: 41%;
+    left: 24%;
+    background-color: #ffffff;     /* Fundo branco */
+    border-radius: 5px;            /* Bordas arredondadas */
+    border: 2px solid black;
+    box-shadow: -2px 2px grey;     /* Sombra para efeito 3D */
+    width: 50%;
+}
+
+#informacoes1{
+    position: absolute;
+    bottom:15%;
+    left: 18%;
+    background-color:#ffffff;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: -2px 2px grey;
+    width: 275px;
+    height: 90px;
+}
+
+#botoes {
+    position: absolute;
+    top:88%;
+    left: 21%;
+    
+}
+
+#btnproximo{
+    box-shadow: -2px 2px black;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    width: 125px;
+    height: 30px;
+    
+    
+}
+
+#btnvoltar{
+    box-shadow: -2px 2px black;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    width: 125px;
+    height: 30px;
+   
+    
+}
+
+#input{
+    border-radius: 2px;
+    box-shadow: -2px 2px grey;
+    width: 295px;
+    height: 30px;
+}
+
+@media (max-width: 768px) {
+    #container {
+        transform: scale(0.8);             /* Reduz o tamanho geral para 80% */
+        transform-origin: top center;      /* Mantém a posição central ao redimensionar */
+    }
+}
+
+@media (max-width: 480px) {
+    #container {
+        transform: scale(0.65);            /* Reduz ainda mais para telas menores */
+        transform-origin: top center;
+    }
+}
+
